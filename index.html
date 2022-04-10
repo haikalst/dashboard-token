@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Admin Dashboard | Dashboard</title>
+    <!-- Stylesheet Custom -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet" />
+    <!-- Font Custom -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Start Nav -->
+    <nav>
+        <div class="container">
+            <img src="./img/logo.png" alt="logo" class="logo" />
+            <div class="search-bar">
+                <span class="material-icons-sharp">search</span>
+                <input type="search" placeholder="Cari" />
+            </div>
+            <div class="profile-area">
+                <div class="theme-btn">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="./img/profile1.jpg" alt="Profile Image" />
+                    </div>
+                    <h5>Elia Evans</h5>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                <button id="menu-btn">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+            </div>
+        </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Start Aside -->
+    <main>
+        <!-- Start Aside -->
+        <aside>
+            <!-- Start Aside -->
+            <button id="close-btn">
+          <span class="material-icons-sharp">close</span>
+        </button>
+            <!-- Start Sidebar -->
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">currency_exchange</span>
+                    <h4>Penukaran</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">account_balance_wallet</span>
+                    <h4>Dompet</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">payment</span>
+                    <h4>Transaksi</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">pie_chart</span>
+                    <h4>Analisis</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">message</span>
+                    <h4>Notifikasi</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">help_center</span>
+                    <h4>Bantuan</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h4>Pengaturan</h4>
+                </a>
+            </div>
+            <!-- End Sidebar -->
+            <div class="update">
+                <span class="material-icons-sharp">update</span>
+                <h4>Pembaruan Tersedia</h4>
+                <p>Pembaruan Keamanan</p>
+                <p>Pembaruan Umum</p>
+                <a href="#">Perbarui Sekarang</a>
+            </div>
+        </aside>
+        <!-- End Aside -->
+
+        <!-- Start Middle -->
+        <section class="middle">
+            <div class="header">
+                <h1>Dashboard</h1>
+                <input type="date" />
+            </div>
+
+            <!-- Start Cards -->
+            <div class="cards">
+                <!-- Start Card 1 -->
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./img/bitcoin.png" alt="" class="" />
+                            <h2>BTC</h2>
+                        </div>
+                        <img src="./img/visa.png" alt="" class="right" />
+                    </div>
+                    <div class="middle">
+                        <h1>$70.887,89</h1>
+                        <img src="./img/card_chip.png" alt="" class="chip" />
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Pemilik Kartu</small>
+                            <h5>ELIA EVANS</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Berlaku sd</small>
+                                <h5>03/24</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123456</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card 1 -->
+                <!-- Start Card 2 -->
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./img/eth.png" alt="" class="" />
+                            <h2>ETH</h2>
+                        </div>
+                        <img src="./img/mastercard.png" alt="" class="right" />
+                    </div>
+                    <div class="middle">
+                        <h1>$98.678,89</h1>
+                        <img src="./img/card_chip.png" alt="" class="chip" />
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Pemilik Kartu</small>
+                            <h5>ELIA EVANS</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Berlaku sd</small>
+                                <h5>05/24</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123456</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card 2 -->
+                <!-- Start Card 3 -->
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./img/xrp.png" alt="" class="" />
+                            <h2>XRP</h2>
+                        </div>
+                        <img src="./img/mastercard.png" alt="" class="right" />
+                    </div>
+                    <div class="middle">
+                        <h1>$8.923,13</h1>
+                        <img src="./img/card_chip.png" alt="" class="chip" />
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Pemilik Kartu</small>
+                            <h5>ELIA EVANS</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Berlaku sd</small>
+                                <h5>08/24</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123456</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Card 3 -->
+            </div>
+            <!-- End Cards -->
+            <!-- Start Monthly Earning -->
+            <div class="monthly-report">
+                <!-- Start Income Report -->
+                <div class="report">
+                    <h3>Pemasukan</h3>
+                    <div>
+                        <details>
+                            <h1>$29.543</h1>
+                            <h6 class="success">+3,8%</h6>
+                        </details>
+                        <p class="text-muted">Jumlah $28.124 pada bulan lalu</p>
+                    </div>
+                </div>
+                <!-- End Income Report -->
+                <!-- Start Expense Report -->
+                <div class="report">
+                    <h3>Beban</h3>
+                    <div>
+                        <details>
+                            <h1>$9.133</h1>
+                            <h6 class="danger">-7,4%</h6>
+                        </details>
+                        <p class="text-muted">Jumlah $10.230 pada bulan lalu</p>
+                    </div>
+                </div>
+                <!-- End Expense Report -->
+                <!-- Start Cashback Report -->
+                <div class="report">
+                    <h3>Cashback</h3>
+                    <div>
+                        <details>
+                            <h1>$7.394</h1>
+                            <h6 class="success">+2,5%</h6>
+                        </details>
+                        <p class="text-muted">Jumlah $6.930 pada bulan lalu</p>
+                    </div>
+                </div>
+                <!-- End Cashback Report -->
+                <!-- Start Turnover Report -->
+                <div class="report">
+                    <h3>Perputaran</h3>
+                    <div>
+                        <details>
+                            <h1>$174.945</h1>
+                            <h6 class="danger">-9,8%</h6>
+                        </details>
+                        <p class="text-muted">Jumlah $164.107 pada bulan lalu</p>
+                    </div>
+                </div>
+                <!-- End Turnover Report -->
+            </div>
+            <!-- End Monthly Earning -->
+            <!-- Start Fast Payment -->
+            <div class="fast-payment">
+                <h2>Pembayaran Cepat</h2>
+                <div class="badges">
+                    <div class="badge">
+                        <span class="material-icons-sharp">add</span>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-primary"> </span>
+                        <div>
+                            <h5>Pelatihan</h5>
+                            <h4>$50</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-success"> </span>
+                        <div>
+                            <h5>Listrik</h5>
+                            <h4>$89</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-purple"> </span>
+                        <div>
+                            <h5>Gas</h5>
+                            <h4>$39</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-warning"> </span>
+                        <div>
+                            <h5>Air</h5>
+                            <h4>$10</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-success"> </span>
+                        <div>
+                            <h5>Donasi</h5>
+                            <h4>$100</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-purple"> </span>
+                        <div>
+                            <h5>Langganan</h5>
+                            <h4>$66</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-danger"> </span>
+                        <div>
+                            <h5>Makanan</h5>
+                            <h4>$54</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-warning"> </span>
+                        <div>
+                            <h5>Pendidikan</h5>
+                            <h4>$86</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-primary"> </span>
+                        <div>
+                            <h5>Pulsa</h5>
+                            <h4>$10</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-success"></span>
+                        <div>
+                            <h5>Streaming</h5>
+                            <h4>$24</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-purple"></span>
+                        <div>
+                            <h5>Topup</h5>
+                            <h4>$50</h4>
+                        </div>
+                    </div>
+                    <div class="badge">
+                        <span class="bg-warning"></span>
+                        <div>
+                            <h5>Voucher</h5>
+                            <h4>$95</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Fast Payment -->
+            <!-- Start Chart -->
+            <canvas id="chart"></canvas>
+            <!-- End Chart -->
+        </section>
+        <!-- End Middle -->
+
+        <!-- Start Right -->
+        <section class="right">
+            <!-- Start Investment -->
+            <div class="investments">
+                <div class="header">
+                    <h2>Saham</h2>
+                    <a href="#">
+              Selengkapnya
+              <span class="material-icons-sharp">chevron_right</span>
+            </a>
+                </div>
+                <!-- Start Investment 1 -->
+                <div class="investment">
+                    <img src="./img/adobe.png" alt="" class="" />
+                    <h4>Adobe</h4>
+                    <div class="date-time">
+                        <p>8 Mar 2022</p>
+                        <small class="text-muted">09:45</small>
+                    </div>
+                    <div class="bonds">
+                        <p>1.387</p>
+                        <small class="text-muted">Bond</small>
+                    </div>
+                    <div class="amount">
+                        <h4>$25.983</h4>
+                        <small class="danger">-4.84%</small>
+                    </div>
+                </div>
+                <!-- End Investment 1 -->
+                <!-- Start Investment 2 -->
+                <div class="investment">
+                    <img src="./img/microsoft.png" alt="" class="" />
+                    <h4>Microsoft</h4>
+                    <div class="date-time">
+                        <p>9 Mar 2022</p>
+                        <small class="text-muted">10:05</small>
+                    </div>
+                    <div class="bonds">
+                        <p>1.948</p>
+                        <small class="text-muted">Bond</small>
+                    </div>
+                    <div class="amount">
+                        <h4>$27.937</h4>
+                        <small class="success">+6.92%</small>
+                    </div>
+                </div>
+                <!-- End Investment 2 -->
+                <!-- Start Investment 3 -->
+                <div class="investment">
+                    <img src="./img/amazon.png" alt="" class="" />
+                    <h4>Amazon</h4>
+                    <div class="date-time">
+                        <p>11 Mar 2022</p>
+                        <small class="text-muted">08:15</small>
+                    </div>
+                    <div class="bonds">
+                        <p>982</p>
+                        <small class="text-muted">Bond</small>
+                    </div>
+                    <div class="amount">
+                        <h4>$21.865</h4>
+                        <small class="danger">-5.82%</small>
+                    </div>
+                </div>
+                <!-- End Investment 3 -->
+                <!-- Start Investment 4 -->
+                <div class="investment">
+                    <img src="./img/apple.png" alt="" class="" />
+                    <h4>Apple</h4>
+                    <div class="date-time">
+                        <p>12 Mar 2022</p>
+                        <small class="text-muted">16:35</small>
+                    </div>
+                    <div class="bonds">
+                        <p>2.289</p>
+                        <small class="text-muted">Bond</small>
+                    </div>
+                    <div class="amount">
+                        <h4>$29.765</h4>
+                        <small class="success">+7.42%</small>
+                    </div>
+                </div>
+                <!-- End Investment 4 -->
+            </div>
+            <!-- End Investment -->
+
+            <!-- Start Transaction -->
+            <div class="recent-transactions">
+                <div class="header">
+                    <h2>Transaksi Terakhir</h2>
+                    <a href="#">
+              Selengkapnya
+              <span class="material-icons-sharp">chevron_right</span>
+            </a>
+                </div>
+                <!-- Transaction 1 -->
+                <div class="transaction">
+                    <div class="service">
+                        <div class="icon bg-purple-light">
+                            <span class="material-icons-sharp purple">play_arrow</span>
+                        </div>
+                        <div class="detail">
+                            <h4>Streaming</h4>
+                            <p>15 Mar 2022</p>
+                        </div>
+                    </div>
+                    <div class="card-detail">
+                        <div class="card bg-light">
+                            <img src="./img/visa.png" alt="" class="" />
+                        </div>
+                        <div class="detail">
+                            <p>*2750</p>
+                            <small class="text-muted">Kartu Kredit</small>
+                        </div>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <!-- Transaction 2 -->
+                <div class="transaction">
+                    <div class="service">
+                        <div class="icon bg-success-light">
+                            <span class="material-icons-sharp success">credit_score</span>
+                        </div>
+                        <div class="detail">
+                            <h4>Topup</h4>
+                            <p>15 Mar 2022</p>
+                        </div>
+                    </div>
+                    <div class="card-detail">
+                        <div class="card bg-light">
+                            <img src="./img/mastercard.png" alt="" class="" />
+                        </div>
+                        <div class="detail">
+                            <p>*2749</p>
+                            <small class="text-muted">Kartu Kredit</small>
+                        </div>
+                    </div>
+                    <h4>$30</h4>
+                </div>
+                <!-- Transaction 3 -->
+                <div class="transaction">
+                    <div class="service">
+                        <div class="icon bg-danger-light">
+                            <span class="material-icons-sharp danger">sports_esports</span>
+                        </div>
+                        <div class="detail">
+                            <h4>Voucher Game</h4>
+                            <p>14 Mar 2022</p>
+                        </div>
+                    </div>
+                    <div class="card-detail">
+                        <div class="card bg-light">
+                            <img src="./img/visa.png" alt="" class="" />
+                        </div>
+                        <div class="detail">
+                            <p>*2748</p>
+                            <small class="text-muted">Kartu Kredit</small>
+                        </div>
+                    </div>
+                    <h4>$16</h4>
+                </div>
+                <!-- Transaction 4 -->
+                <div class="transaction">
+                    <div class="service">
+                        <div class="icon bg-warning-light">
+                            <span class="material-icons-sharp warning">shopping_bag</span>
+                        </div>
+                        <div class="detail">
+                            <h4>Belanja</h4>
+                            <p>14 Mar 2022</p>
+                        </div>
+                    </div>
+                    <div class="card-detail">
+                        <div class="card bg-light">
+                            <img src="./img/mastercard.png" alt="" class="" />
+                        </div>
+                        <div class="detail">
+                            <p>*2747</p>
+                            <small class="text-muted">Kartu Kredit</small>
+                        </div>
+                    </div>
+                    <h4>$120</h4>
+                </div>
+                <!-- Transaction 5 -->
+                <div class="transaction">
+                    <div class="service">
+                        <div class="icon bg-primary-light">
+                            <span class="material-icons-sharp primary">subscriptions</span>
+                        </div>
+                        <div class="detail">
+                            <h4>Langganan</h4>
+                            <p>13 Mar 2022</p>
+                        </div>
+                    </div>
+                    <div class="card-detail">
+                        <div class="card bg-light">
+                            <img src="./img/visa.png" alt="" class="" />
+                        </div>
+                        <div class="detail">
+                            <p>*2746</p>
+                            <small class="text-muted">Kartu Kredit</small>
+                        </div>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <!-- Transaction 6 -->
+                <div class="transaction">
+                    <div class="service">
+                        <div class="icon bg-purple-light">
+                            <span class="material-icons-sharp purple">phone_android</span>
+                        </div>
+                        <div class="detail">
+                            <h4>Pulsa</h4>
+                            <p>13 Mar 2022</p>
+                        </div>
+                    </div>
+                    <div class="card-detail">
+                        <div class="card bg-light">
+                            <img src="./img/mastercard.png" alt="" class="" />
+                        </div>
+                        <div class="detail">
+                            <p>*2745</p>
+                            <small class="text-muted">Kartu Kredit</small>
+                        </div>
+                    </div>
+                    <h4>$14</h4>
+                </div>
+            </div>
+            <!-- End Transaction -->
+        </section>
+        <!-- End Right -->
+    </main>
+    <!-- End Aside -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
